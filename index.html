@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,14 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <!-- Navigatie -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#home">Jack Vonk</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,6 +32,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#drums">Drums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#drums-gallery">Galerij</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Over Mij</a>
@@ -62,7 +68,9 @@
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="section-content">
                         <h2 class="section-title">Tuiniersdiensten</h2>
-                        <p class="mb-4">Als gepassioneerd tuinier help ik u graag met het creëren en onderhouden van uw droomtuin. Met jarenlange ervaring en kennis van lokale plantensoorten, zorg ik voor een tuin die het hele jaar door prachtig blijft.</p>
+                        <p class="mb-4">Als gepassioneerd tuinier help ik u graag met het creëren en onderhouden van uw
+                            droomtuin. Met jarenlange ervaring en kennis van lokale plantensoorten, zorg ik voor een
+                            tuin die het hele jaar door prachtig blijft.</p>
                         <h3 class="h5 mb-3">Mijn Diensten:</h3>
                         <div class="row">
                             <div class="col-md-6">
@@ -97,7 +105,10 @@
                 <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
                     <div class="section-content">
                         <h2 class="section-title">Handgemaakte Drums</h2>
-                        <p class="mb-4">Naast mijn werk als tuinier, heb ik een grote passie voor het maken van handgemaakte drums. Elke drum die ik maak is een uniek kunstwerk met zijn eigen karakteristieke klank, geïnspireerd door traditionele technieken die ik leerde tijdens mijn reizen over de wereld.</p>
+                        <p class="mb-4">Naast mijn werk als tuinier, heb ik een grote passie voor het maken van
+                            handgemaakte drums. Elke drum die ik maak is een uniek kunstwerk met zijn eigen
+                            karakteristieke klank, geïnspireerd door traditionele technieken die ik leerde tijdens mijn
+                            reizen over de wereld.</p>
                         <h3 class="h5 mb-3">Beluister een voorbeeld:</h3>
                         <div class="audio-container mb-4">
                             <audio controls class="w-100">
@@ -109,8 +120,49 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="img-container rounded shadow">
-                        <img src="images/drum-placeholder.jpg" alt="Handgemaakte Drums" class="img-fluid rounded">
+                    <div class="drum-main-img-container rounded shadow">
+                        <img src="images/drum1.jpeg" alt="Handgemaakte Drums" class="drum-main-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drums Galerij sectie -->
+    <section id="drums-gallery" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Drum Collectie</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum1.jpeg" data-title="Handgemaakte Drum 1">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum1.jpeg" alt="Handgemaakte Drum 1" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum2.jpeg" data-title="Handgemaakte Drum 2">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum2.jpeg" alt="Handgemaakte Drum 2" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum3.jpeg" data-title="Handgemaakte Drum 3">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum3.jpeg" alt="Handgemaakte Drum 3" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum4.jpeg" data-title="Handgemaakte Drum 4">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum4.jpeg" alt="Handgemaakte Drum 4" class="img-fluid rounded">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,11 +185,20 @@
                                 <h3 class="card-title h4 mt-3">Jack Vonk</h3>
                                 <h4 class="card-subtitle mb-3 text-muted">Tuinier & Drummaker</h4>
                             </div>
-                            <p class="card-text">Mijn naam is Jack Vonk en ik heb het geluk om mijn twee passies te combineren in mijn dagelijks werk. Na ruim 15 jaar ervaring in tuinontwerp en -onderhoud, vind ik nog steeds voldoening in het creëren van prachtige groene ruimtes die mensen met de natuur verbinden.</p>
-                            
-                            <p class="card-text">Tijdens mijn reizen door Afrika en Azië ontdekte ik mijn tweede passie: het maken van handgemaakte drums. Ik leerde de technieken van lokale ambachtslieden en ontwikkelde mijn eigen stijl waarin ik traditionele methoden combineer met moderne ontwerpen.</p>
-                            
-                            <p class="card-text">Ik geloof dat zowel tuinieren als drummaking gaan over het creëren van harmonie en schoonheid. Of het nu een tuin is die tot bloei komt of een drum die resoneert met een rijk geluid, beide zijn uitingen van creativiteit die mensen vreugde kunnen brengen.</p>
+                            <p class="card-text">Mijn naam is Jack Vonk en ik heb het geluk om mijn twee passies te
+                                combineren in mijn dagelijks werk. Na ruim 15 jaar ervaring in tuinontwerp en
+                                -onderhoud, vind ik nog steeds voldoening in het creëren van prachtige groene ruimtes
+                                die mensen met de natuur verbinden.</p>
+
+                            <p class="card-text">Tijdens mijn reizen door Afrika en Azië ontdekte ik mijn tweede passie:
+                                het maken van handgemaakte drums. Ik leerde de technieken van lokale ambachtslieden en
+                                ontwikkelde mijn eigen stijl waarin ik traditionele methoden combineer met moderne
+                                ontwerpen.</p>
+
+                            <p class="card-text">Ik geloof dat zowel tuinieren als drummaking gaan over het creëren van
+                                harmonie en schoonheid. Of het nu een tuin is die tot bloei komt of een drum die
+                                resoneert met een rijk geluid, beide zijn uitingen van creativiteit die mensen vreugde
+                                kunnen brengen.</p>
                         </div>
                     </div>
                 </div>
@@ -184,7 +245,8 @@
                                         <p class="mb-2"><strong>Zaterdag:</strong> Op afspraak</p>
                                         <p class="mb-0"><strong>Zondag:</strong> Gesloten</p>
                                     </div>
-                                    <p class="mt-4">Voor vragen of het maken van een afspraak kunt u mij telefonisch bereiken of een e-mail sturen. Ik reageer doorgaans binnen 24 uur.</p>
+                                    <p class="mt-4">Voor vragen of het maken van een afspraak kunt u mij telefonisch
+                                        bereiken of een e-mail sturen. Ik reageer doorgaans binnen 24 uur.</p>
                                     <a href="mailto:jack@vonk-tuinendrums.nl" class="btn btn-primary mt-3">
                                         <i class="fas fa-envelope me-2"></i>Stuur een e-mail
                                     </a>
@@ -209,9 +271,25 @@
         </div>
     </footer>
 
+    <!-- Drum Image Modal -->
+    <div class="modal fade" id="drumModal" tabindex="-1" aria-labelledby="drumModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="drumModalLabel">Handgemaakte Drum</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -154,6 +154,74 @@ audio {
     margin: 10px 0;
 }
 
+/* Drums Galerij sectie */
+#drums-gallery .section-title {
+    color: var(--drum-primary);
+}
+
+#drums-gallery .section-title::after {
+    background-color: var(--drum-primary);
+}
+
+.drum-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.drum-card:hover {
+    transform: translateY(-10px);
+}
+
+.drum-card .img-container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.drum-card:hover .img-container {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.drum-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.drum-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Drum main image in drums section */
+.drum-main-img-container {
+    height: 300px;
+    overflow: hidden;
+}
+
+.drum-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Modal styling */
+.modal-content {
+    border: none;
+    border-radius: 15px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+#modalImage {
+    max-height: 70vh;
+    width: auto;
+}
+
 /* Over Ons sectie */
 .about-icon {
     font-size: 2.5rem;
