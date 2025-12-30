@@ -1,12 +1,14 @@
 # Jack Vonk - Handgemaakte Drums Website
 
 ## Overzicht
+
 Dit project is een statische website ontworpen voor Jack Vonk, een vakman die handgemaakte drums maakt. De website heeft een moderne, responsieve layout die zijn drumcollectie en vakmanschap laat zien, met een contactsectie voor potentiële klanten.
 
 ## Projectstructuur
+
 Het project bestaat uit de volgende bestanden en mappen:
 
-```
+```bash
 vonk/
 ├── index.html          # Hoofdpagina van de website
 ├── css
@@ -24,6 +26,7 @@ vonk/
 ```
 
 ## Functies
+
 - **Responsief Ontwerp**: De website is ontworpen met Bootstrap en custom CSS, waardoor deze goed werkt op alle apparaten.
 - **Navigatiebalk**: Eenvoudige navigatie met links naar Home, Drums, Galerij, Over Mij en Contact secties.
 - **Handgemaakte Drums**: Uitgebreide sectie met informatie over Jack's handgemaakte drums, een afbeelding en een audiospeler om een drumvoorbeeld te beluisteren.
@@ -32,6 +35,7 @@ vonk/
 - **Contactsectie**: Contactgegevens en openingstijden voor bezoekers om contact op te nemen.
 
 ## Aan de slag
+
 Om de website lokaal op te zetten en te draaien:
 
 1. Clone de repository of download de projectbestanden.
@@ -39,6 +43,7 @@ Om de website lokaal op te zetten en te draaien:
 3. Zorg ervoor dat alle gekoppelde bronnen (CSS, JavaScript, afbeeldingen en audio) correct worden verwezen.
 
 ## Technologieën
+
 - HTML5
 - CSS3
 - Bootstrap 5
@@ -46,10 +51,12 @@ Om de website lokaal op te zetten en te draaien:
 - Font Awesome iconen
 
 ## Gebruik
+
 - Navigeer door de secties met behulp van de navigatiebalk bovenaan.
 - Bekijk de drumcollectie in de galerij.
 - Luister naar audiovoorbeelden van de drums.
 - Neem contact op via de contactsectie.
 
 ## Licentie
+
 Dit project is open-source en beschikbaar voor iedereen om te gebruiken en aan te passen.
