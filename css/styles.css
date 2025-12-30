@@ -1,10 +1,9 @@
-/* Custom stijlen voor Tuin & Drum website */
+/* Custom stijlen voor Drums website */
 
 :root {
-    --garden-primary: #4a7c59;
-    --garden-secondary: #f0f7e9;
     --drum-primary: #8b5a2b;
     --drum-secondary: #f5f0e8;
+    --drum-accent: #c17a3a;
     --text-dark: #333;
     --text-light: #f9f9f9;
     --accent: #e27d60;
@@ -20,7 +19,7 @@ body {
 
 /* Navigatie */
 .navbar {
-    background-color: var(--garden-primary);
+    background-color: var(--drum-primary);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     padding: 15px 0;
 }
@@ -38,12 +37,12 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--garden-secondary) !important;
+    color: var(--drum-secondary) !important;
 }
 
 /* Hero sectie */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/garden-placeholder.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/drum1.jpeg') no-repeat center center;
     background-size: cover;
     color: white;
     padding: 120px 0;
@@ -64,7 +63,7 @@ section {
 }
 
 .section-title {
-    color: var(--garden-primary);
+    color: var(--drum-primary);
     margin-bottom: 25px;
     font-weight: 700;
     position: relative;
@@ -78,7 +77,7 @@ section {
     bottom: 0;
     height: 3px;
     width: 60px;
-    background-color: var(--garden-primary);
+    background-color: var(--drum-primary);
 }
 
 #about .section-title::after,
@@ -102,32 +101,7 @@ img {
     border-radius: 5px;
 }
 
-/* Tuinman sectie aanpassingen */
-#gardener .section-title {
-    color: var(--garden-primary);
-}
-
-#gardener .section-title::after {
-    background-color: var(--garden-primary);
-}
-
-.service-list li {
-    margin-bottom: 10px;
-    font-size: 1.05rem;
-}
-
-.tuinman {
-    background: #e8f5e9;
-    border: 1px solid #c8e6c9;
-    padding: 20px;
-    border-radius: 5px;
-}
-
 /* Drum sectie aanpassingen */
-#drums {
-    background-color: var(--drum-secondary);
-}
-
 #drums .section-title {
     color: var(--drum-primary);
 }
@@ -225,7 +199,7 @@ audio {
 /* Over Ons sectie */
 .about-icon {
     font-size: 2.5rem;
-    color: var(--garden-primary);
+    color: var(--drum-primary);
     margin-bottom: 20px;
 }
 
@@ -237,10 +211,6 @@ audio {
     transform: translateY(-5px);
 }
 
-#about .col-md-6:last-child .about-icon {
-    color: var(--drum-primary);
-}
-
 /* Contact formulier */
 .form-control {
     border: 1px solid #ddd;
@@ -249,8 +219,8 @@ audio {
 }
 
 .form-control:focus {
-    box-shadow: 0 0 0 3px rgba(74, 124, 89, 0.25);
-    border-color: var(--garden-primary);
+    box-shadow: 0 0 0 3px rgba(139, 90, 43, 0.25);
+    border-color: var(--drum-primary);
 }
 
 /* Contact sectie aanpassingen */
@@ -266,7 +236,7 @@ audio {
 }
 
 .contact-info a:hover {
-    color: var(--garden-primary);
+    color: var(--drum-primary);
 }
 
 .social-icon {
@@ -275,7 +245,7 @@ audio {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: var(--garden-primary);
+    background-color: var(--drum-primary);
     color: white;
     border-radius: 50%;
     font-size: 1.1rem;
@@ -284,19 +254,19 @@ audio {
 }
 
 .social-icon:hover {
-    background-color: var(--drum-primary);
+    background-color: var(--drum-accent);
     color: white;
     transform: translateY(-3px);
 }
 
 .hours-box {
-    background-color: rgba(74, 124, 89, 0.1);
-    border-left: 4px solid var(--garden-primary);
+    background-color: rgba(139, 90, 43, 0.1);
+    border-left: 4px solid var(--drum-primary);
 }
 
 /* Footer */
 footer {
-    background-color: var(--garden-primary);
+    background-color: var(--drum-primary);
     text-align: center;
     padding: 10px;
     color: white;
@@ -317,38 +287,28 @@ footer {
 
 .social-link:hover {
     background-color: white;
-    color: var(--garden-primary);
+    color: var(--drum-primary);
 }
 
 /* Knoppen */
 .btn-primary {
-    background-color: var(--garden-primary);
-    border-color: var(--garden-primary);
-}
-
-.btn-primary:hover {
-    background-color: #3a6347;
-    border-color: #3a6347;
-}
-
-.btn-secondary {
     background-color: var(--drum-primary);
     border-color: var(--drum-primary);
 }
 
-.btn-secondary:hover {
+.btn-primary:hover {
     background-color: #734c24;
     border-color: #734c24;
 }
 
-.btn-outline-success {
-    color: var(--garden-primary);
-    border-color: var(--garden-primary);
+.btn-secondary {
+    background-color: var(--drum-accent);
+    border-color: var(--drum-accent);
 }
 
-.btn-outline-success:hover {
-    background-color: var(--garden-primary);
-    color: white;
+.btn-secondary:hover {
+    background-color: #a0632e;
+    border-color: #a0632e;
 }
 
 .btn-outline-primary {

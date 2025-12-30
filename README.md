@@ -1,7 +1,7 @@
-# Jack Vonk - Tuin & Drum Website
+# Jack Vonk - Handgemaakte Drums Website
 
 ## Overzicht
-Dit project is een statische website ontworpen voor Jack Vonk, die zowel tuinierdiensten aanbiedt als handgemaakte drums maakt. De website heeft een moderne, responsieve layout die zijn beide vakgebieden laat zien, met een contactformulier voor potentiële klanten.
+Dit project is een statische website ontworpen voor Jack Vonk, een vakman die handgemaakte drums maakt. De website heeft een moderne, responsieve layout die zijn drumcollectie en vakmanschap laat zien, met een contactsectie voor potentiële klanten.
 
 ## Projectstructuur
 Het project bestaat uit de volgende bestanden en mappen:
@@ -12,22 +12,24 @@ vonk/
 ├── css
 │   └── styles.css      # CSS stijlen voor de website
 ├── js
-│   └── script.js       # JavaScript voor formulierinteractie
+│   └── script.js       # JavaScript voor interactie
 ├── images
-│   ├── garden-placeholder.jpg  # Afbeelding voor de Tuinier sectie
-│   └── drum-placeholder.jpg    # Afbeelding voor de Drums sectie
+│   ├── drum1.jpeg      # Drum afbeeldingen voor de website
+│   ├── drum2.jpeg
+│   ├── drum3.jpeg
+│   └── drum4.jpeg
 ├── audio
-│   └── drum-sample.mp3         # Audiovoorbeeld voor de Drums sectie
+│   └── drum-sample.mp3 # Audiovoorbeeld van een drum
 └── README.md           # Documentatie voor het project
 ```
 
 ## Functies
 - **Responsief Ontwerp**: De website is ontworpen met Bootstrap en custom CSS, waardoor deze goed werkt op alle apparaten.
-- **Navigatiebalk**: Eenvoudige navigatie met links naar Home, Tuinieren, Drums, Over Mij en Contact secties.
-- **Tuiniersdiensten**: Informatie over Jack's tuinierdiensten, met een afbeelding en een lijst met diensten.
-- **Handgemaakte Drums**: Details over zijn handgemaakte drums, een afbeelding en een audiospeler om een drumvoorbeeld te beluisteren.
-- **Over Mij**: Een persoonlijke biografie die Jack's achtergrond en passies beschrijft.
-- **Contactformulier**: Een formulier voor bezoekers om contact op te nemen, met JavaScript-validatie.
+- **Navigatiebalk**: Eenvoudige navigatie met links naar Home, Drums, Galerij, Over Mij en Contact secties.
+- **Handgemaakte Drums**: Uitgebreide sectie met informatie over Jack's handgemaakte drums, een afbeelding en een audiospeler om een drumvoorbeeld te beluisteren.
+- **Drum Galerij**: Een visuele galerij met meerdere drums die Jack heeft gemaakt, met modal functionaliteit om afbeeldingen in detail te bekijken.
+- **Over Mij**: Een persoonlijke biografie die Jack's achtergrond, reizen en passie voor drummaking beschrijft.
+- **Contactsectie**: Contactgegevens en openingstijden voor bezoekers om contact op te nemen.
 
 ## Aan de slag
 Om de website lokaal op te zetten en te draaien:
@@ -45,7 +47,9 @@ Om de website lokaal op te zetten en te draaien:
 
 ## Gebruik
 - Navigeer door de secties met behulp van de navigatiebalk bovenaan.
-- Vul het contactformulier in om een bericht naar Jack te sturen.
+- Bekijk de drumcollectie in de galerij.
+- Luister naar audiovoorbeelden van de drums.
+- Neem contact op via de contactsectie.
 
 ## Licentie
 Dit project is open-source en beschikbaar voor iedereen om te gebruiken en aan te passen.
