@@ -4,14 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack Vonk - Handgemaakte Drums</title>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="description"
+        content="Jack Vonk maakt handgemaakte drums met een unieke klank. Elk instrument is met zorg en vakmanschap vervaardigd. Bekijk de collectie en drums te koop.">
+    <meta name="keywords" content="handgemaakte drums, Jack Vonk, drummaker, Wolvega, Nederland">
+    <meta name="author" content="Jack Vonk">
+    <link rel="canonical" href="https://jacksoriginaldrums.com/">
+
+    <!-- Security: Content Security Policy for GitHub Pages -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https://cdnjs.cloudflare.com; media-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self' mailto:">
+    <title>Jacks Original Drums</title>
     <!-- Favicon -->
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥁</text></svg>">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
     <!-- Font Awesome voor iconen -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -20,7 +32,7 @@
     <!-- Navigatie -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#home">Jack Vonk</a>
+            <a class="navbar-brand" href="#home">Jacks Original Drums</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,6 +49,9 @@
                         <a class="nav-link" href="#drums-gallery">Galerij</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#for-sale">Te Koop</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#about">Over Mij</a>
                     </li>
                     <li class="nav-item">
@@ -51,7 +66,7 @@
     <header id="home" class="hero-section text-center">
         <div class="container">
             <div class="hero-content">
-                <h1 class="display-4 fw-bold mb-4">Jack Vonk</h1>
+                <h1 class="display-4 fw-bold mb-4">Jack Original Drums</h1>
                 <p class="lead mb-5">Drummaker — Handgemaakte drums met een unieke klank</p>
                 <div class="d-flex justify-content-center gap-3">
                     <a href="#drums-gallery" class="btn btn-primary btn-lg">Bekijk Drums</a>
@@ -72,19 +87,12 @@
                             maak is een uniek kunstwerk met zijn eigen karakteristieke klank, geïnspireerd door
                             traditionele technieken die ik leerde tijdens mijn reizen over de wereld. Van djembés tot
                             cajons, elk instrument is met zorg en vakmanschap vervaardigd.</p>
-                        <h3 class="h5 mb-3">Beluister een voorbeeld:</h3>
-                        <div class="audio-container mb-4">
-                            <audio controls class="w-100">
-                                <source src="audio/drum-sample.mp3" type="audio/mpeg">
-                                Uw browser ondersteunt het audio-element niet.
-                            </audio>
-                        </div>
                         <a href="#contact" class="btn btn-outline-primary mt-2">Informeer naar beschikbaarheid</a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <div class="drum-main-img-container rounded shadow">
-                        <img src="images/drum1.jpeg" alt="Handgemaakte Drums" class="drum-main-img">
+                        <img src="images/drum5.jpg" alt="Handgemaakte Drums" class="drum-main-img">
                     </div>
                 </div>
             </div>
@@ -98,36 +106,386 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
-                        data-img="images/drum1.jpeg" data-title="Handgemaakte Drum 1">
+                        data-img="images/drum5.jpg" data-title="Handgemaakte Drum 1">
                         <div class="img-container rounded shadow">
-                            <img src="images/drum1.jpeg" alt="Handgemaakte Drum 1" class="img-fluid rounded">
+                            <img src="images/drum5.jpg" alt="Handgemaakte Drum 1" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
-                        data-img="images/drum2.jpeg" data-title="Handgemaakte Drum 2">
+                        data-img="images/drum6.jpg" data-title="Handgemaakte Drum 2">
                         <div class="img-container rounded shadow">
-                            <img src="images/drum2.jpeg" alt="Handgemaakte Drum 2" class="img-fluid rounded">
+                            <img src="images/drum6.jpg" alt="Handgemaakte Drum 2" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
-                        data-img="images/drum3.jpeg" data-title="Handgemaakte Drum 3">
+                        data-img="images/drum7.jpg" data-title="Handgemaakte Drum 3">
                         <div class="img-container rounded shadow">
-                            <img src="images/drum3.jpeg" alt="Handgemaakte Drum 3" class="img-fluid rounded">
+                            <img src="images/drum7.jpg" alt="Handgemaakte Drum 3" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
-                        data-img="images/drum4.jpeg" data-title="Handgemaakte Drum 4">
+                        data-img="images/drum8.jpg" data-title="Handgemaakte Drum 4">
                         <div class="img-container rounded shadow">
-                            <img src="images/drum4.jpeg" alt="Handgemaakte Drum 4" class="img-fluid rounded">
+                            <img src="images/drum8.jpg" alt="Handgemaakte Drum 4" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum9.jpg" data-title="Handgemaakte Drum 5">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum9.jpg" alt="Handgemaakte Drum 5" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum10.jpg" data-title="Handgemaakte Drum 6">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum10.jpg" alt="Handgemaakte Drum 6" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum11.jpg" data-title="Handgemaakte Drum 7">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum11.jpg" alt="Handgemaakte Drum 7" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum12.jpg" data-title="Handgemaakte Drum 8">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum12.jpg" alt="Handgemaakte Drum 8" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum13.jpg" data-title="Handgemaakte Drum 9">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum13.jpg" alt="Handgemaakte Drum 9" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum14.jpg" data-title="Handgemaakte Drum 10">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum14.jpg" alt="Handgemaakte Drum 10" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum15.jpg" data-title="Handgemaakte Drum 11">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum15.jpg" alt="Handgemaakte Drum 11" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum16.jpg" data-title="Handgemaakte Drum 12">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum16.jpg" alt="Handgemaakte Drum 12" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum17.jpg" data-title="Handgemaakte Drum 13">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum17.jpg" alt="Handgemaakte Drum 13" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum18.jpg" data-title="Handgemaakte Drum 14">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum18.jpg" alt="Handgemaakte Drum 14" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum19.jpg" data-title="Handgemaakte Drum 15">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum19.jpg" alt="Handgemaakte Drum 15" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum20.jpg" data-title="Handgemaakte Drum 16">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum20.jpg" alt="Handgemaakte Drum 16" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum21.jpg" data-title="Handgemaakte Drum 17">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum21.jpg" alt="Handgemaakte Drum 17" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum22.jpg" data-title="Handgemaakte Drum 18">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum22.jpg" alt="Handgemaakte Drum 18" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal" <div class="drum-card"
+                        data-bs-toggle="modal" data-bs-target="#drumModal" data-img="images/drum24.jpg"
+                        data-title="Handgemaakte Drum 19">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum24.jpg" alt="Handgemaakte Drum 19" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum25.jpg" data-title="Handgemaakte Drum 20">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum25.jpg" alt="Handgemaakte Drum 20" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum26.jpg" data-title="Handgemaakte Drum 21">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum26.jpg" alt="Handgemaakte Drum 21" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum27.jpg" data-title="Handgemaakte Drum 22">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum27.jpg" alt="Handgemaakte Drum 22" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum28.jpg" data-title="Handgemaakte Drum 23">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum28.jpg" alt="Handgemaakte Drum 23" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum29.jpg" data-title="Handgemaakte Drum 24">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum29.jpg" alt="Handgemaakte Drum 24" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum30.jpg" data-title="Handgemaakte Drum 25">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum30.jpg" alt="Handgemaakte Drum 25" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum31.jpg" data-title="Handgemaakte Drum 26">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum31.jpg" alt="Handgemaakte Drum 26" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum32.jpg" data-title="Handgemaakte Drum 27">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum32.jpg" alt="Handgemaakte Drum 27" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal" <div class="drum-card"
+                        data-bs-toggle="modal" data-bs-target="#drumModal" <div class="drum-card" data-bs-toggle="modal"
+                        data-bs-target="#drumModal" <div class="drum-card" data-bs-toggle="modal"
+                        data-bs-target="#drumModal" data-img="images/drum36.jpg" data-title="Handgemaakte Drum 28">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum36.jpg" alt="Handgemaakte Drum 28" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum37.jpg" data-title="Handgemaakte Drum 29">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum37.jpg" alt="Handgemaakte Drum 29" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum38.jpg" data-title="Handgemaakte Drum 30">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum38.jpg" alt="Handgemaakte Drum 30" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum39.jpg" data-title="Handgemaakte Drum 31">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum39.jpg" alt="Handgemaakte Drum 31" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum40.jpg" data-title="Handgemaakte Drum 32">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum40.jpg" alt="Handgemaakte Drum 32" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum41.jpg" data-title="Handgemaakte Drum 33">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum41.jpg" alt="Handgemaakte Drum 33" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/drum42.jpg" data-title="Handgemaakte Drum 34">
+                        <div class="img-container rounded shadow">
+                            <img src="images/drum42.jpg" alt="Handgemaakte Drum 34" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/hout1.jpg" data-title="Houtbewerking 1">
+                        <div class="img-container rounded shadow">
+                            <img src="images/hout1.jpg" alt="Houtbewerking 1" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                        data-img="images/hout2.jpg" data-title="Houtbewerking 2">
+                        <div class="img-container rounded shadow">
+                            <img src="images/hout2.jpg" alt="Houtbewerking 2" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Te Koop sectie -->
+    <section id="for-sale" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-3">Op Dit Moment in de Verkoop</h2>
+            <p class="text-center text-muted mb-5">Unieke handgemaakte drums beschikbaar voor aankoop</p>
+
+            <div class="row g-4">
+                <!-- Drum Te Koop 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm sale-card">
+                        <div class="sale-img-container">
+                            <img src="images/drum15.jpg" class="card-img-top" alt="Drum met elandvel te koop">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Handgemaakte Drum met Elandvel</h5>
+                            <p class="card-text">Een unieke drum bespannen met authentiek elandvel. Het elandvel geeft
+                                een warme, diepe klank en is bijzonder duurzaam. Ideaal voor ceremoniële muziek en
+                                meditatie.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Bespannen met elandvel</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Diameter: ca. 40 cm</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Warme, diepe toon</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Volledig handgemaakt</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0 text-primary">Prijs op aanvraag</span>
+                                <a href="#contact" class="btn btn-primary btn-sm">Informeer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drum Te Koop 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm sale-card">
+                        <div class="sale-img-container">
+                            <img src="images/drum20.jpg" class="card-img-top" alt="Drum met hertevel te koop">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Handgemaakte Drum met Hertevel</h5>
+                            <p class="card-text">Een prachtige drum bespannen met hertevel. Hertevel staat bekend om
+                                zijn heldere en resonerende klank. Perfect voor ritmische muziek en drumcirkels.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Bespannen met hertevel</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Diameter: ca. 35 cm</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Heldere, resonerende toon</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Met houten klopper</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0 text-primary">Prijs op aanvraag</span>
+                                <a href="#contact" class="btn btn-primary btn-sm">Informeer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drum Te Koop 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm sale-card">
+                        <div class="sale-img-container">
+                            <img src="images/drum25.jpg" class="card-img-top" alt="Kinderdrum te koop">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Handgemaakte Kinderdrum</h5>
+                            <p class="card-text">Speciaal ontworpen kinderdrum, perfect voor jonge drumliefhebbers.
+                                Lichter en compacter dan standaard drums, maar met dezelfde kwalitatieve afwerking en
+                                authentieke klank.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="fas fa-check text-success me-2"></i>Geschikt voor kinderen</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Diameter: ca. 25 cm</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Licht en handzaam</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Veilige afwerking</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0 text-primary">Prijs op aanvraag</span>
+                                <a href="#contact" class="btn btn-primary btn-sm">Informeer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <p class="lead">Interesse in een van deze drums of wilt u een op maat gemaakte drum bestellen?</p>
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    <i class="fas fa-envelope me-2"></i>Neem Contact Op
+                </a>
             </div>
         </div>
     </section>
@@ -175,6 +533,50 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Foto Galerij -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="row g-3 justify-content-center">
+                        <div class="col-6 col-md-3">
+                            <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                                data-img="images/jack.jpg" data-title="Jack Vonk">
+                                <div class="img-container rounded shadow jack-photo-container">
+                                    <img src="images/jack.jpg" alt="Jack Vonk"
+                                        class="img-fluid jack-photo-img jack-photo-center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                                data-img="images/jack2.jpg" data-title="Jack Vonk">
+                                <div class="img-container rounded shadow jack-photo-container">
+                                    <img src="images/jack2.jpg" alt="Jack Vonk"
+                                        class="img-fluid jack-photo-img jack-photo-top">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                                data-img="images/jack3.jpg" data-title="Jack Vonk">
+                                <div class="img-container rounded shadow jack-photo-container">
+                                    <img src="images/jack3.jpg" alt="Jack Vonk"
+                                        class="img-fluid jack-photo-img jack-photo-top">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="drum-card" data-bs-toggle="modal" data-bs-target="#drumModal"
+                                data-img="images/jack4.jpg" data-title="Jack Vonk">
+                                <div class="img-container rounded shadow jack-photo-container">
+                                    <img src="images/jack4.jpg" alt="Jack Vonk"
+                                        class="img-fluid jack-photo-img jack-photo-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -196,11 +598,11 @@
                                         </li>
                                         <li class="mb-3">
                                             <i class="fas fa-phone text-primary me-2"></i>
-                                            <a href="tel:+31612345678">+31 6 12345678</a>
+                                            <a href="tel:+31649106408">+31 6 49106408</a>
                                         </li>
                                         <li class="mb-3">
                                             <i class="fas fa-map-marker-alt text-primary me-2"></i>
-                                            Fryslân, Nederland
+                                            Wolvega, Nederland
                                         </li>
                                     </ul>
                                     <h4 class="h5 mt-4 mb-3">Volg mij</h4>
@@ -237,7 +639,8 @@
                 <a href="https://www.facebook.com/profile.php?id=100009441347" target="_blank" rel="noopener noreferrer"
                     class="social-link"><i class="fab fa-facebook-f"></i></a>
             </div>
-            <p class="mb-0">&copy; 2025 Jack Vonk - Handgemaakte Drums. Alle rechten voorbehouden.</p>
+            <p class="mb-0">&copy; <span id="copyright-year">2025</span> Jack Vonk - Handgemaakte Drums. Alle rechten
+                voorbehouden.</p>
         </div>
     </footer>
 
@@ -257,7 +660,8 @@
     </div>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 </body>

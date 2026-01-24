@@ -19,7 +19,7 @@ vonk/
 │   ├── drum1.jpeg      # Drum afbeeldingen voor de website
 │   ├── drum2.jpeg
 │   ├── drum3.jpeg
-│   └── drum4.jpeg
+│   └── etc.
 ├── audio
 │   └── drum-sample.mp3 # Audiovoorbeeld van een drum
 └── README.md           # Documentatie voor het project
@@ -46,16 +46,16 @@ Om de website lokaal op te zetten en te draaien:
 
 - HTML5
 - CSS3
-- Bootstrap 5
-- JavaScript
-- Font Awesome iconen
+- Bootstrap 5.3.0
+- JavaScript (ES6+)
+- Font Awesome 6.4.0
 
 ## Gebruik
 
 - Navigeer door de secties met behulp van de navigatiebalk bovenaan.
 - Bekijk de drumcollectie in de galerij.
 - Luister naar audiovoorbeelden van de drums.
-- Neem contact op via de contactsectie.
+- Neem contact op via de contactsectie voor vragen of bestellingen.
 
 ## Licentie
 

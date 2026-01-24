@@ -25,7 +25,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
 }
@@ -42,7 +42,7 @@ body {
 
 /* Hero sectie */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/drum1.jpeg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/drum5.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     padding: 120px 0;
@@ -166,6 +166,34 @@ audio {
 
 .drum-card:hover img {
     transform: scale(1.05);
+}
+
+/* Sale cards styling */
+.sale-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.sale-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.sale-img-container {
+    height: 300px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.sale-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.sale-card:hover .sale-img-container img {
+    transform: scale(1.1);
 }
 
 /* Drum main image in drums section */
@@ -355,4 +383,24 @@ footer {
     section {
         margin: 5px;
     }
+}
+
+/* Jack photo gallery styling */
+.jack-photo-container {
+    height: 300px;
+    overflow: hidden;
+}
+
+.jack-photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.jack-photo-img.jack-photo-center {
+    object-position: center;
+}
+
+.jack-photo-img.jack-photo-top {
+    object-position: top;
 }

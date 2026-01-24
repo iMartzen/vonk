@@ -1,10 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Update copyright jaar dynamisch
+  const copyrightYear = document.getElementById("copyright-year");
+  if (copyrightYear) {
+    copyrightYear.textContent = new Date().getFullYear();
+  }
+
   // Gladde scrolling voor anker links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
 
       const targetId = this.getAttribute("href");
+
+      // Valideer dat targetId een simpele ID selector is (beveiliging: voorkom complexe selectors)
+      if (!/^#[a-zA-Z][\w-]*$/.test(targetId)) {
+        console.warn("Invalid anchor target:", targetId);
+        return;
+      }
+
       const targetElement = document.querySelector(targetId);
 
       if (targetElement) {
@@ -46,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Drum gallery modal functionality
+  // Drum galerij modal functionaliteit
   const drumModal = document.getElementById("drumModal");
   const modalImage = document.getElementById("modalImage");
   const modalTitle = document.getElementById("drumModalLabel");
@@ -56,9 +69,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const imgSrc = this.getAttribute("data-img");
       const imgTitle = this.getAttribute("data-title");
 
-      modalImage.src = imgSrc;
-      modalImage.alt = imgTitle;
-      modalTitle.textContent = imgTitle;
+      // Beveiliging: Valideer dat imgSrc een veilig lokaal pad is (accepteer drum/hout/jack afbeeldingen)
+      if (imgSrc && /^images\/(drum|hout|jack)\d*\.jpg$/.test(imgSrc)) {
+        modalImage.src = imgSrc;
+        modalImage.alt = imgTitle || "";
+        modalTitle.textContent = imgTitle || "Handgemaakte Drum";
+      } else {
+        console.warn("Invalid or missing image source:", imgSrc);
+      }
     });
   });
 });
